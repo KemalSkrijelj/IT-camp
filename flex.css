@@ -1,0 +1,49 @@
+body {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(192, 192, 192);
+  
+}
+
+.container {
+width: 400px;
+background-color:white;
+display: flex;
+flex-direction: column;
+border-radius: 40px;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.card-body{
+  padding: 10px;
+}
+
+.card {
+border-radius: 100px;
+display: flex;
+flex-direction: column;
+flex-basis: 300px;
+max-width: 100%;
+padding: 10px;
+}
+
+
+
+.dugme {
+  padding: 5px 15px;
+background-color: rgb(217, 217, 255);
+color: blue;
+border-radius: 20px;
+border-color: rgb(217, 217, 255);
+height: 50px;
+width: 120px;
+text-align: center;
+
+}

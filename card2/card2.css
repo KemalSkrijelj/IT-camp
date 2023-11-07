@@ -1,0 +1,205 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.sidebar {
+  width: 30%;
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.up {
+  width: 100%;
+  height: 50%;
+}
+
+.name {
+  margin: 0;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 3%;
+  left: 28%;
+}
+.img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 35%;
+  top: 11%;
+}
+.txt {
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  position: absolute;
+  top: 34%;
+  margin: 0;
+  width: 350px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.txt2 {
+  margin: 0;
+  position: absolute;
+  top:39.5%;
+  text-decoration: underline;
+  left: 35%;
+  color: white;
+  cursor: pointer;
+}
+.btn {
+  position: absolute;
+  top: 45%;
+  padding-left: 110px;
+  padding-right: 60px;
+}
+.MyBtn {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.icons {
+  font-size: 20px;
+}
+.hr {
+  width: 99.6%;
+  position: absolute;
+  top: 52%;
+  border-color: rgb(199, 199, 199);
+  margin: 0;
+}
+.down {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 150px;
+}
+.span:first-child {
+  color: black;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+
+}
+.span {
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.btn2 {
+  position: absolute;
+  left: 38%;
+  top: 76%;
+  padding: 20px 10px 20px;
+  background-color: rgb(3, 164, 164);
+  color: white;
+  border: none;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 747px;
+}
+.header {
+  height: 230px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px 0;
+  flex-direction: column;
+  gap: 13px;
+  position: relative;
+}
+.input{
+  height: 40px;
+  width: 350px;
+  border-radius: 6px;
+  border: 2px solid gray;
+}
+.btn3 {
+  position: absolute;
+  top: 111px;
+  left: 730px;
+  height: 46px;
+  width: 100px;
+  background-color: aqua;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-family: Arial;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.content {
+  height: 520px;
+ 
+  padding: 20px 170px;
+  display: flex;
+  flex-direction: column;
+}
+.box1 {
+  height: 176.6px;
+  display: flex;
+  flex-direction: column;
+}
+.img1 {
+  height: 140px;
+  width: 140px;
+  padding: 16px 0 16px;
+}
+.tekst1 {
+  position: absolute;
+  margin-left: 160px;
+  color: black;
+  font-size: 30px;
+}
+.box2 {
+  height: 176.6px;
+ display: flex;
+}
+.img2 {
+  height: 140px;
+  width: 140px;
+  padding: 16px 0 16px;
+}
+.tekst2 {
+  position: absolute;
+  margin-left: 160px;
+  color: black;
+  font-size: 30px;
+}
+.box3 {
+  height: 176.6px;
+ display: flex;
+}
+.img3 {
+  height: 140px;
+  width: 140px;
+  padding: 16px 0 16px;
+}
+.tekst3{
+  position: absolute;
+  margin-left: 160px;
+  color: black;
+  font-size: 30px;
+}

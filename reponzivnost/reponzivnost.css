@@ -1,0 +1,92 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: lightgreen ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.slika1 {
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.txt1 {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Arial;
+}
+.slika2 {
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.txt2 {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Arial;
+}
+.card {
+  display: flex;
+  width: 400px;
+  min-height: 500px;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 20px;
+  
+}
+.slika3 {
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.txt3 {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Arial;
+}
+.span1 {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.span {
+  padding-left:20px ;
+  padding-right: 30px;
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    display: flex;
+        flex-direction: column;
+  }
+  .card {
+    width: 90%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+@media only screen and (min-width: 400px ) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-top:30px ;    
+  }
+  .card {
+    width: 90%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+}

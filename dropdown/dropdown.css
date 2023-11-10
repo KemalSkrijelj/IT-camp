@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+}
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 15px;
+}
+.burgerIcon {
+ color: white;
+ font-size: 40px;
+}
+.burgerIcon:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.dropDwonMenu {
+  width: 300px;
+  height: 200px;
+  background-color: red;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  display: none; 
+  flex-direction: column;
+  
+}
+.burgerIcon:active .dropDwonMenu {
+ display: block;
+}

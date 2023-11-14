@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 650px;
+  height: 670px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  height: 60px;
+  width: 96%;
+  padding: 0px 15px 0px 12px;
+  display: flex;
+  align-items: center;
+}
+.left {
+  width: 45%;
+}
+.h1 {
+  font-size: 20px;
+  font-family:'Nunito Sans', sans-serif ;
+  margin: 0;
+}
+.right {
+  padding-left: 10px;
+  display: flex;
+  gap: 5px;
+  width: 55%;
+}
+.Btn {
+  background: none;
+  border: none;
+  font-family:'Nunito Sans', sans-serif ;
+  cursor: pointer;
+}
+.content {
+  width: 100%;
+  height: 610px;
+  display: flex;
+}
+.left1 {
+  width: 50%;
+  height: 610px;
+  padding-left: 15px;
+  padding-right: 0;
+  position: relative;
+}
+.p2 {
+  margin-top: 0;
+  line-height: 18px;
+}
+.Btn2 {
+  color: white;
+  padding: 6.5px 6.5px 6.5px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.Btn2:hover {
+  background-color: white;
+  color: green;
+  border: 2px solid lightgreen;
+}
+.Btn3 {
+  color: lightgreen;
+  padding: 5px 5px 5px;
+  background-color: white;
+  border: 2px solid lightgreen;
+  border-radius: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Btn3:hover {
+  background-color: white;
+  color: red;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 240px;
+  left: 27%;
+}
+.icon {
+  font-size: 30px;
+  color: lightgreen;
+  position: absolute;
+  left: 40%;
+  top: 410px;
+}
+.h2 {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 435px;
+  left: 30%;
+}
+.p3 {
+  width: 190px;
+  position: absolute;
+  left: 20%;
+  top: 460px;
+  color: gray;
+}
+.h3 {
+  position: absolute;
+  top: 450px;
+  left: 46%;
+}
+.right1 {
+  width: 50%;
+  height: 610px;
+  position: relative;
+}
+.img2 {
+  height: 150px;
+  width: 150px;
+  padding-left: 60px;  
+}
+.h4 {
+  padding-left: 75px;
+  font-size: 30px;
+  font-family: Arial;
+}
+.p4 {
+  color: gray;
+  padding: 0 15px 0px 15px;
+}

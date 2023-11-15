@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 600px;
+  width: 800px;
+  background-color: white;
+  display: flex;
+  border-radius: 5%;
+}
+.nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+.name {
+  color: lightskyblue;
+  margin: 0;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+.Btn {
+  background: none;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  color: lightskyblue;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+}
+.x {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.Btn1 {
+  display: none;
+}
+@media only screen and (max-width: 420px ) {
+  .card {
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+
+    border-bottom: 1px solid black;
+    display: flex;
+    position: relative;
+  }
+  .name {
+    color: blue;
+    font-size: 25px;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .x {
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    bottom: 2px;
+    cursor: pointer;
+  }
+  .Btn {
+    display: none;
+  }
+  .hr {
+    width: 100px;
+    border: 1px solid red;
+  }
+  .Btn1 {
+    display: flex;
+    width: 100px;
+    background: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 100px;
+    flex-direction: column;
+  }
+}

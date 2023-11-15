@@ -1,0 +1,76 @@
+body {
+padding: 0;
+margin: 0;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  position: relative;
+}
+.slika {
+  width: 100%;
+  height: 800px;
+}
+.slika:hover {
+  filter: brightness(50%);
+}
+.left {
+  width: 50%;
+}
+.placeholder {
+  width: 100%;
+  height: 400px;
+ 
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height:200px;
+  transition: 1s all ease;
+}
+.up {
+  height: 50%;
+  width: 100%;
+}
+.down {
+  height: 50%;
+  width: 100%;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.card:hover .overlay {
+  height: 280px;
+}
+.tekst1 {
+  margin-left: 40px;
+  display: none;
+  transition: 10s all ease;
+  font-size: 14px ;
+}
+.card:hover .tekst1{
+  display: block;
+}
+.minutes {
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+.minutes:hover {
+
+  position: static;
+}

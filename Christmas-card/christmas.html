@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="christmas.css">
+</head>
+<body>
+  <div class="container" >
+    <div class="card" id="cardclose">
+      <div class="leftside">
+        <img class="img" src="christmas.tree.jpg" alt="">
+        <button class="dugme1">Add To Cart</button>
+      </div>
+      <div class="rightside">
+        <button  class="x" id="close"> X</button>
+        <div class="name">
+          <h1 style="font-size: 22px;margin: 0;">Awesome Christmas Tree 2016</h1>
+          <p style="font-size: 15px;margin: 0; color: grey; ">CHRISTMAS TREE WITH DECORATION</p>
+        </div>
+        <h2 style="margin: 0;font-size: 22px;">$120</h2>
+        <div style="margin-top: 16px; margin-bottom: 16px;">
+          <span>Make your festive decor sparkle with this classic Christmas tree pre-lit with 150 warm white LED lights. Standing around 6 feet tall, 
+            the tree is a great choice for those wanting a nice looking Christmas tree without the hassle of adding lights.</span></div>
+            <div class="size">
+            <h3 style="font-size: 20px;margin: 0;">Size</h3>
+              <table style="background-color: white;margin-top: 13px;border: 1px solid black; border-collapse: collapse;">
+                <tr >
+                  <td class="s" style="width: 70px; cursor: pointer;text-align: center;border: 1px solid black;">S</td>
+                  <td class="m" style="width: 70px; cursor: pointer;text-align: center;border: 1px solid black;">M</td>
+                  <td class="l" style="width: 70px; cursor: pointer;text-align: center;border: 1px solid black;">L</td>
+                  <td class="xl" style="width: 70px; cursor: pointer;text-align: center; border: 1px solid black;">XL</td>
+                </tr>
+              </table>
+            </div>
+            <div>
+              <h4 style="font-size: 25px;">Color of decoration</h4>
+            </div>
+            <div class="colors">
+              <button class="color1"></button>
+              <button class="color2"></button>
+              <button class="color3"></button>
+              <button class="color4"></button>
+              <button class="color5"></button>
+            </div>
+            <div class="dugme2">Add to wishlist</div>
+      </div>
+
+    </div>
+  </div>
+  <script>const close=document.getElementById("close")</script>
+  <script>const card=document.getElementById("cardclose")</script>
+  <script>close.addEventListener("click",()=>{card.style.display="none"})</script>
+</body>
+</html>

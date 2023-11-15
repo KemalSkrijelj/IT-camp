@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 500px;
+  width: 450px;
+  background-color: white;
+}
+.up {
+  height: 200px;
+  width: 100%;
+}
+img {
+  height: 200px;
+  width: 450px;
+}
+.img:hover{
+  filter: brightness(50%);
+  transition: 1s all;
+}
+.down {
+  height:300px ;
+  width: 100%;
+  background-color: white;
+  gap: 20px;
+  
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  height: 75%;
+  width: 100%;
+  
+}
+.timer {
+  width: 100%;
+  height: 25%;
+  
+}
+.clock {
+  margin-left: 30px;
+}

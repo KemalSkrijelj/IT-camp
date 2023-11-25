@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .progress-container {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      align-items: center;
+    }
+
+    .progress-background {
+      fill: none;
+      stroke: #ddd; /* Background color of the progress bar */
+      stroke-width: 10;
+    }
+
+    .progress-bar {
+      fill: none;
+      stroke: #3498db; /* Color of the progress bar */
+      stroke-width: 10;
+      stroke-linecap: round;
+      stroke-dasharray: 0, 1000;
+      animation: progress-animation 2s ease-out forwards;
+    }
+
+    @keyframes progress-animation {
+      to {
+        stroke-dasharray: 500, 1000; /* 283 is the circumference of a circle with a radius of 45 */
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="progress-container">
+
+  <svg class="progress-background">
+    <circle cx="75" cy="75" r="65"></circle>
+  </svg>
+  <svg class="progress-bar">
+    <circle cx="75" cy="75" r="65"></circle>
+  </svg>
+</div>
+  </style>
+</body>
+</html>
